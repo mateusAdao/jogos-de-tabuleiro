@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    <a class="pular" href="#tabuleiro">Pular para o conteúdo</a>
     <header>
         <h1>Jogos de Tabuleiro</h1>
         <nav aria-label="Principal">
@@ -19,19 +19,101 @@
             </ul>
         </nav>
     </header>
-    <main id="main-tabuleiro">
+    <main id="tabuleiro">
         <section id="destaques" aria-labelledby="t-destaques">
-            <h2 id="t-destaques"></h2>
+            <h2 id="t-destaques">Jogos em Destaque</h2>
 
+            <article>
+                <h3>Dungeons & Dragons</h3>
+                <figure>
+                    <img src="img/DnD.jpg" alt="tabuleiro com fichas, dados, cartas e um livro de regras." width="320" height="200">
+                    <figcaption>Aventura colaborativa com dados</figcaption>
+                </figure>
+                <p><strong>RPG de mesa cooperativo</strong> em que um mestre narra a história e os jogadores interpretam heróis.</p>
+                <p>Atualizado em <time datetime="2026-11-17">17 de novembro de 2026</time>.</p>
+            </article>
 
-        </section>
-        <section id="comparativo" aria-labelledby="t-destaques">
-            <h2 id="t-comparativo"></h2>
+            <article>
+                <h3>War</h3>
+                <figure>
+                    <img src="img/war.webp" alt="Tabuleiro com mapa mundi dividido em territórios ocupados por exercitos coloridos." width="320" height="200">
+                    <figcaption>Disputa de territórios no mapa mundi</figcaption>
+                </figure>
+                <p>jogo de <strong>estratégia militar e conquista</strong> onde cada participante precisa cumprir um objetivo secreto usando tropas e dados.</p>
+                <p>Atualizado em <time datetime="2026-11-17">17 de novembro de 2026</time>.</p>
+            </article>
 
+            <article>
+                <h3>Banco Imobiliário</h3>
+                <figure>
+                    <img src="img/banco.webp" alt="Tabuleiro de Banco Imobiliário com notas de dinheiro, pinos e casas." width="320" height="200">
+                    <figcaption>Compra e venda de propriedades</figcaption>
+                </figure>
+                <p>Jogo de <strong>negociação financeira</strong> em que os jogadores compram terrenos, constroem imóveis e cobram alugueis dos adversarios.</p>
+                <p>Atualizado em <time datetime="2026-11-17">17 de novembro de 2026</time>.</p>
+            </article>
+
+            <article>
+                <h3>Xadrez</h3>
+                <figure>
+                    <img src="img/xadrez.jpg" alt="Tabuleiro quadriculado de 64 casas com peças pretas e brancas" width="320" height="200">
+                    <figcaption>Tabuleiro de 64 casas</figcaption>
+                </figure>
+                <p>Jogo de <strong>raciocínio lógico</strong> para dois oponentes.</p>
+                <p>Atualizado em <time datetime="2026-11-17">17 de novembro de 2026</time>.</p>
+            </article>
         </section>
-        <section>
-        
+
+        <section id="comparativo" aria-labelledby="t-comparativo">
+            <h2 id="t-comparativo">Comparativo</h2>
+            <table>
+                <caption>Especificações dos jogos</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Jogo</th>
+                        <th scope="col">Jogadores</th>
+                        <th scope="col">Duração</th>
+                        <th scope="col">Complexidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Dungeons & Dragons</th>
+                        <td>3 a 6</td>
+                        <td>180 min</td>
+                        <td>Alta</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">War</th>
+                        <td>3 a 6</td>
+                        <td>120 min</td>
+                        <td>Média</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Banco Imobiliário</th>
+                        <td>2 a 6</td>
+                        <td>90 min</td>
+                        <td>Baixa</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Xadrez</th>
+                        <td>2</td>
+                        <td>30 a 60 min</td>
+                        <td>Alta</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
+
+        <aside id="dicas" aria-label="Dicas para iniciantes">
+            <h2>Dicas para Iniciantes</h2>
+            <ul>
+                <li>Leia o manual com calma </li>
+                <li>Use <em>plásticos protetores</em> para preservar cartas que são embaralhadas com frequencia.</li>
+                <li>Guarde dados, pinos e fichas em pequenos potes para agilizar a montagem da mesa.</li>
+            </ul>
+        </aside>
+       
         <section id="contato" aria-labelledby="t-contato">
             <h2 id="t-contato"></h2>
         </section>
